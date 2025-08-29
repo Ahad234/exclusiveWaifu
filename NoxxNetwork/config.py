@@ -16,7 +16,7 @@ class Config(object):
     SUPPORT_CHAT = os.getenv("SUPPORT_CHAT","https://t.me/WaifuxIvan")
     UPDATE_CHAT = os.getenv("UPDATE_CHAT","https://t.me/WaifuxDb")
     BOT_USERNAME = os.getenv("BOT_USERNAME","WaifuxGraber_bot")
-    CHARA_CHANNEL_ID = int(os.getenv("CHARA_CHANNEL_ID","WaifuxDb"))
+    CHARA_CHANNEL_ID = int(os.getenv("CHARA_CHANNEL_ID","-1002902949191"))
     api_id = int(os.getenv("API_ID","22657083"))
     api_hash = os.getenv("API_HASH","d6186691704bd901bdab275ceaab88f3")
 
