@@ -9,7 +9,7 @@ class Config(object):
 
     OWNER_ID = os.getenv("OWNER_ID","8195241636")
     sudo_users = os.getenv("SUDO_USERS","5303251380").split(",")  # Convert CSV to list
-    GROUP_ID = int(os.getenv("GROUP_ID",'-1002902949191"))
+    GROUP_ID = int(os.getenv("GROUP_ID","-1002902949191"))
     TOKEN = os.getenv("TOKEN","7961956208:AAFp1pTmpTj--sH5CMxEVYFWEh_hYSan0iI")
     mongo_url = os.getenv("MONGO_URL","mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan")
     PHOTO_URL = os.getenv("PHOTO_URL","https://graph.org/file/8fd4b227c317b5de2c62a-1a111dbb6c672b71e0.jpg").split(",")  # Convert CSV to list
